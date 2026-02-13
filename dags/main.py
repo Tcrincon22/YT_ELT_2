@@ -22,7 +22,7 @@ default_args = {
 }
 
 with DAG(
-    dag_id='produce_json',
+    dag_id='produce_json_2"',
     default_args=default_args,
     description='A DAG to extract video stats from YouTube API and save it as JSON',
     schedule='0 6 * * *',
